@@ -78,6 +78,12 @@ a:hover {
 h4.sub-title {
   font-size: 1.25rem;
   margin: 1rem 0;
+  padding-bottom: 4px;
+  border-bottom: 1.5px solid #343b31;
+}
+
+footer h4.sub-title {
+  border-bottom: none;
 }
 
 .fa-solid {
@@ -110,7 +116,7 @@ header {
   border-image-slice: 1;
   border-width: 5px;
   background-color: #343b31;
-  border-image-source: linear-gradient(to left, #0107af, #343b31);
+  border-image-source: linear-gradient(to left, #0107af, #E82535);
 }
 
 #header-nav .container {

@@ -47,6 +47,7 @@ table {
 /* end reset */
 /*color variables*/
 $brand-color: #0107af;
+$secondary-color: #E82535;
 $link-color: #343b31;
 /**/ 
 body{
@@ -72,6 +73,11 @@ a{
 h4.sub-title{
     font-size: 1.25rem;
     margin: 1rem 0;
+    padding-bottom: 4px;
+    border-bottom: 1.5px solid $link-color;
+}
+footer h4.sub-title{
+    border-bottom: none;
 }
 .fa-solid{
     color: $link-color;
@@ -99,7 +105,7 @@ header{
     border-image-slice: 1;
     border-width: 5px;
     background-color: $link-color;
-    border-image-source: linear-gradient(to left, $brand-color, $link-color);
+    border-image-source: linear-gradient(to left, $brand-color, $secondary-color);
 }
 #header-nav .container{
     display: flex;
@@ -195,7 +201,7 @@ table.GeneratedTable {
   }
   
   table.GeneratedTable thead {
-    background-color: #E82535;
+    background-color: $secondary-color;
   }
 .features-left{
     padding-right: 30px;
