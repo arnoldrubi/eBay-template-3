@@ -1,0 +1,367 @@
+/* css reset */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+  font-size: 16px;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* end reset */
+/*color variables*/
+/**/
+body {
+  margin: 0 auto;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+}
+
+h1, h2, h3, h4, h5 {
+  font-family: "Oswald", sans-serif;
+  color: #0107af;
+  text-transform: uppercase;
+}
+
+a {
+  text-decoration: none;
+  color: #343b31;
+}
+a:hover {
+  color: #036564;
+  opacity: 0.75;
+  transition: 0.2s linear all;
+}
+
+h4.sub-title {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+}
+
+.fa-solid {
+  color: #343b31;
+  margin-right: 5px;
+}
+
+main {
+  margin: 6rem 0;
+}
+
+/*header*/
+.logo-brand h1 {
+  font-size: 32px;
+  font-weight: 500;
+  color: #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
+.container p {
+  line-height: 1.5;
+}
+
+header {
+  border-top: 10px solid;
+  border-image-slice: 1;
+  border-width: 5px;
+  background-color: #343b31;
+  border-image-source: linear-gradient(to left, #0107af, #343b31);
+}
+
+#header-nav .container {
+  display: flex;
+  align-items: center;
+  padding: 20px 15px;
+}
+
+#img-logo {
+  max-width: 200px;
+}
+
+.nav-links {
+  list-style-type: none;
+  flex-basis: 65%;
+  text-align: right;
+}
+.nav-links li {
+  display: inline;
+  font-size: 12px;
+  color: #fff;
+  margin: 0 12px;
+}
+
+.logo-brand {
+  flex-basis: 35%;
+}
+
+#header-features-block ul {
+  margin-top: 30px;
+}
+#header-features-block ul li {
+  display: inline;
+  color: #fff;
+  text-align: center;
+  font-size: 12px;
+  padding-top: 26px;
+}
+
+#top-brands {
+  background: url("images/award-icon.png") no-repeat top center;
+}
+
+#support {
+  background: url("images/support-icon.png") no-repeat top center;
+}
+
+#free-shipping {
+  background: url("images/free-shipping-icon.png") no-repeat top center;
+}
+
+#warranty {
+  background: url("images/shield-icon.png") no-repeat top center;
+}
+
+#product-showcase {
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  background-size: cover;
+  border: 1px solid #343b31;
+  box-shadow: 11px 10px 0px #343b31;
+}
+#product-showcase div {
+  flex-basis: 50%;
+  padding: 10px 23px;
+}
+#product-showcase .product-image img {
+  max-width: 100%;
+  width: 100%;
+}
+
+.phone-num.lead img {
+  width: 24px !important;
+  margin: 0 5px -5px 0 !important;
+}
+
+.product-title {
+  text-align: center;
+  font-size: 1.75rem;
+  margin: 2rem 0;
+}
+
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #cdb380;
+  border-style: solid;
+  color: rgb(44, 44, 44);
+  margin-top: 1.75rem;
+  margin-bottom: 2rem;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #343b31;
+  border-style: solid;
+  padding: 10px;
+}
+
+table.GeneratedTable th {
+  border-color: #b31825;
+  color: #fff;
+}
+
+table.GeneratedTable thead {
+  background-color: #E82535;
+}
+
+.features-left {
+  padding-right: 30px;
+}
+.features-left p {
+  line-height: 1.25;
+}
+.features-left h4 {
+  margin: 1rem 0;
+}
+.features-left ul {
+  list-style-type: square;
+  padding-left: 0.75rem;
+  line-height: 1.5;
+}
+
+.generic-flex-div {
+  display: flex;
+}
+.generic-flex-div div {
+  flex-basis: 50%;
+  padding: 10px 12px;
+}
+
+.phone-num.lead {
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 0.5rem 0;
+}
+
+#categories {
+  margin: 2rem auto;
+}
+
+.categories-icon-set {
+  display: flex;
+  align-content: center;
+}
+.categories-icon-set .category-icon {
+  text-align: center;
+  padding: 5px;
+  box-sizing: border-box;
+  margin: 0 5px;
+  flex-basis: 20%;
+}
+.categories-icon-set .category-icon img {
+  width: 100%;
+  border: 1px solid #CDB380;
+  max-width: 200px;
+}
+.categories-icon-set .category-icon img:hover {
+  opacity: 0.85;
+  transition: 0.3s all;
+  border: 1px solid #E8DDCB;
+}
+.categories-icon-set .category-icon span {
+  display: block;
+}
+.categories-icon-set .category-icon:first-child {
+  margin-left: 0;
+}
+.categories-icon-set .category-icon:last-child {
+  margin-right: 0;
+}
+
+#banner-img {
+  margin: 5rem auto 0 auto;
+  text-align: center;
+}
+#banner-img img {
+  width: 100%;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/**/
+footer {
+  background-color: #2b2b2b;
+  color: #fff;
+}
+footer .fa-solid {
+  color: #fff;
+  font-size: 1.25rem;
+}
+
+footer .container {
+  display: flex;
+  align-content: center;
+  padding: 3rem 0;
+}
+footer .container div {
+  padding: 10px 12px;
+  flex-basis: 100%;
+}
+footer .container div h4 {
+  text-align: center;
+  color: #fff;
+}
+footer .container div p {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  text-align: center;
+}
+footer .container div ul li {
+  line-height: 1.5;
+}
+footer .container .footer-content p {
+  margin: 0.4rem 0;
+}
+
+@media only screen and (max-width: 480px) {
+  #header-features-block ul li {
+    display: block;
+    margin: 15px auto;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .logo-brand, .nav-links {
+    flex-basis: 100%;
+    text-align: center;
+  }
+  .sub-title {
+    text-align: center;
+  }
+  #product-showcase {
+    flex-direction: column;
+  }
+  #product-showcase div {
+    flex-basis: 100%;
+  }
+  footer .container, .categories-icon-set {
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 750px) {
+  #header-nav .container {
+    flex-direction: column;
+  }
+  .nav-links, .logo-brand {
+    flex-basis: 100%;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+}/*# sourceMappingURL=product.css.map */
